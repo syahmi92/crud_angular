@@ -19,6 +19,7 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
+    "strictPropertyInitialization": false, //Inserted to get rid of the compilation errors Eg: [id: number;] in employee.ts
     "lib": [
       "ES2022",
       "dom"
